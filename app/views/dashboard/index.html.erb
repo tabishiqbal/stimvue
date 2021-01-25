@@ -1,0 +1,6 @@
+<% props = { :message => "Hey there bud!", :age => "34", :location => "Toronto" }.to_json %>
+<div data-controller="hello" style="margin-left:100px" data-hello-props="<%= props %>">
+  <div data-target="hello.load">
+    <app></app>
+  </div>
+</div>
